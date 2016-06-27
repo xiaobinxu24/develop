@@ -1,0 +1,5 @@
+/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/CMakeFiles/gmock_main.dir
+/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/CMakeFiles/gmock.dir
+/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/gtest/CMakeFiles/kfnetwork-unittest.dir
+/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/gtest/CMakeFiles/gtest_main.dir
+/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/gtest/CMakeFiles/gtest.dir

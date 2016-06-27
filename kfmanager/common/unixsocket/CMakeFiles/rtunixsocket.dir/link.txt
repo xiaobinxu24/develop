@@ -1,0 +1,2 @@
+/usr/bin/ar cq librtunixsocket.a  CMakeFiles/rtunixsocket.dir/rt_unixsocket.c.o
+/usr/bin/ranlib librtunixsocket.a

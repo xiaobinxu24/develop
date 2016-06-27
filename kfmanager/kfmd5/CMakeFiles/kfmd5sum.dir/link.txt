@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/kfmd5sum.dir/kfmd5sum.c.o  -o kfmd5sum  -L/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5 -rdynamic libkfmd5.a -Wl,-rpath,/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/kfmd5_mbedtls.h
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/kfmd5sum.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+kfmd5_mbedtls.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/kfmd5_mbedtls.h
+ngx_md5.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/ngx_md5.h
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/ngx_md5.h
+stdint.h
+-
+string.h
+-
+stdlib.h
+-
+

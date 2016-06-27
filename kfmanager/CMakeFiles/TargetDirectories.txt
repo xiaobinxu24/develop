@@ -1,0 +1,13 @@
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/CMakeFiles/kfcommon.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/unixsocket/CMakeFiles/rtunixsocket.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmanager/CMakeFiles/kfmanager.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/zlog/CMakeFiles/libzlog.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/zlog/CMakeFiles/demo_zlog.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/unixsocket/CMakeFiles/demo_unixsocket_server.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmanager/CMakeFiles/kfmng.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/json/CMakeFiles/kfjson.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/CMakeFiles/kfmd5.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/kfmd5/CMakeFiles/kfmd5sum.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/json/CMakeFiles/demo_json.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/CMakeFiles/demo_http.dir
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/CMakeFiles/kfnet.dir

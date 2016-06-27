@@ -1,0 +1,1 @@
+/usr/bin/c++        -o kfnetwork_unittest  -L/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/gtest/src -rdynamic libgtest_main.a libgtest.a -lpthread -Wl,-rpath,/home/v/proj/work/kfrouter/kfrouter/googletest/build/googlemock/gtest/src 

@@ -1,0 +1,2 @@
+/usr/bin/ar cq libkfmd5.a  CMakeFiles/kfmd5.dir/ngx_md5.c.o
+/usr/bin/ranlib libkfmd5.a

@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/KFHttp.cpp
+rt_print.h
+-
+KFHttp.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/KFHttp.h
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/KFHttp.h
+iostream
+-
+ghttp.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/ghttp.h
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/demo_http.cpp
+iostream
+-
+rt_print.h
+-
+KFHttp.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/KFHttp.h
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/libs/net/http/ghttp.h
+ghttp_constants.h
+-
+time.h
+-
+
+common/rt_print.h
+zlog/zlog.h
+common/zlog/zlog.h
+
+common/zlog/zlog.h
+stdarg.h
+-
+stdio.h
+-
+
+libs/net/http/ghttp_constants.h
+

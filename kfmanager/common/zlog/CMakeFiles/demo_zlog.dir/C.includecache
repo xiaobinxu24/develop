@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/zlog/zlog.h
+stdarg.h
+-
+stdio.h
+-
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/zlog/zlog_demo.c
+stdio.h
+-
+zlog.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/zlog/zlog.h
+

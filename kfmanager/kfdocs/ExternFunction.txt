@@ -1,0 +1,38 @@
+###########################
+# Check Outside
+
+# [ ] -> [ CheckStart ] -> [ t.co ],[ us.kfrouter.cn ],[ sgp.kfrouter.cn ],[ jp.kfrouter.cn ] -> [ OK/Fail ] - (anyone)OK -> [ WaitNextTime ] -> [ CheckStart ]
+# [ OK/Fail ] - (all)Fail -> [ Restart SS ] - counts more 2 -> [ WaitNextTime ] -> [ CheckStart ]
+# [ Restart SS ] - less counts 2 -> [ CheckStart ]
+
+#############################
+# KFManager process
+
+# [ ] -> [ uninit ] - hasConfig -> [ pingcheck ]
+# [ uninit ] - notConfig -> [ queryip ] -> [ pingcheck ] - No result -> [ queryip ]
+# [ pingcheck ] - notConfig -> [ pingupload ] -> [ next1 ]{ border: double; }
+# [ pingcheck ] - hasConfig -> [ Restart ss ] -> [ next2 ]{ border: double; }
+
+# next 1
+# [ next1 ]{ border: double; } -> [ pingupload ] - Fail -> [ queryip ]
+# [ pingupload ] - OK -> [ saveLocal ] -> [ Restart ss ] -> [ next2 ]{ border: double; }
+
+# next 2
+#[ next 2 ]{ border: double; } -> [ Restart ss ] -> [ checkOutside ]
+#[ checkOutside ] - Fail -> [ queryip ]
+#[ checkOutside ] - OK -> [ onlineNotify ] - Fail -> [ onlineNotify ] -> [ figure next ]{ border: double; }
+
+# Next one
+
+#[ figure next ]{ border: double; } -> [ clearTraffic ] -> [ waitNextTime ]
+#[ uploadTraffic ] - OK -> [ waitNextTime ]
+#[ waitNextTime ] -> [ uploadTraffic ]
+#[ waitNextTime ] -> [ Bind ] - Bind -> [ queryip ]
+
+
+# If outside judge
+# [ config ] - EnableOutSide -> [ queryip ]
+# [ config ] - DisableOutSide -> [ KF_ST_WAIT_ENABLE_OUTSIDE ]
+
+[ ] - ChangeOutsideMode -> [ socket ] - DisableOutSide -> [ OnlineNotify ] -> [ UploadTraffic ]
+[ socket ] - EnableOutside -> [ SetEnableMark ]

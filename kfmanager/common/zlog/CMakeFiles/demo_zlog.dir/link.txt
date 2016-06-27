@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/demo_zlog.dir/zlog_demo.c.o  -o demo_zlog  -L/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common -rdynamic liblibzlog.a -lpthread -Wl,-rpath,/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common 

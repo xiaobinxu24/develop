@@ -1,0 +1,1 @@
+/usr/bin/cc     CMakeFiles/demo_unixsocket_server.dir/rt_unixsocket_demo.c.o  -o demo_unixsocket_server  -L/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common -rdynamic librtunixsocket.a ../libkfcommon.a ../zlog/liblibzlog.a -lpthread -lm -Wl,-rpath,/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common 

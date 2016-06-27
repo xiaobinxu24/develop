@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/unixsocket/rt_unixsocket.h
+
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/unixsocket/rt_unixsocket_demo.c
+stdio.h
+-
+unistd.h
+-
+string.h
+-
+rt_unixsocket.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/unixsocket/rt_unixsocket.h
+rt_print.h
+/home/xiaobin_xu/xqb/xqb_workspace/kfrouter-conn/common/unixsocket/rt_print.h
+
+common/rt_print.h
+zlog/zlog.h
+common/zlog/zlog.h
+
+common/zlog/zlog.h
+stdarg.h
+-
+stdio.h
+-
+
